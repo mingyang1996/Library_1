@@ -1,0 +1,78 @@
+/**
+ * Created by Decade on 2017/10/15.
+ */
+
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+#item{
+    /*background-color: #bfccd5;*/
+    background-color: #e6e6e6;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:120px;
+}
+#item .table_item{
+    border-radius: 5px;
+    height:100%;
+    width: 1460px;
+    position: absolute;
+    top:-10px;
+    left:calc(50% - 730px);
+    border:1px solid #3f7fb1;
+    background-color: white;
+}
+#item .table_item .top{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    height: 40px;
+    width: 100%;
+    /*border:1px solid #000000;*/
+    background-color: #3f84b6;
+    color: white;
+}
+#item .table_item .top p1{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top:5px;
+    left:5px;
+}
+#item .table_item .left{
+    /*border:1px solid #000000;*/
+    height:150px;
+    width:150px;
+    position: relative;
+    margin-left:50px;
+    margin-top:20px;
+    float: left;
+}
+#item .table_item .right{
+    /*border:1px solid #000000;*/
+    height:150px;
+    width:700px;
+    position: relative;
+    margin-left:50px;
+    margin-top:20px;
+    float: left;
+}
+#item .table_item .right .form-div{
+    position: absolute;
+    margin-left: 30px;
+}
+
+#item .table_item .num{
+    width: 100%;
+    height:180px;
+    /*border:1px solid #000000;*/
+    position: relative;
+    margin-top: 5px;
+}
+#item .table_item .right a{
+    text-decoration: none;
+}
